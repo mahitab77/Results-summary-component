@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Result-Summary-component-main</title>
+        <link rel="stylesheet" href="./index.css">
+    
+    </head>
+
+    <Body>       
+        <parent id="wrapper">
+
+            <div id="averagedisplay">
+                <h id="result" >Your Result</h>
+                <h id="outputtext"> </h> 
+                <h id="grade">Great</h>
+                <p>You Scored as Well as the people who have taken  these tests.</p>
+            </div>
+            
+            <div id="gradesinput">
+                
+                <form id="summary">Summary</form>
+                  <span id="spanreact">
+                    <div class="iconwtitle">
+                       <img src="./assets/images/icon-reaction.svg" alt=""> </img>
+                       <label for="reactin">Reaction</label> 
+                    </div>         
+                    <div class="gradediv"><input type="text" id="reactin" name="input"><h>  /100</h> </div> 
+                  </span>
+
+                  <span id="spanmemory">
+                    <div class="iconwtitle">
+                      <img src="./assets/images/icon-memory.svg" alt=""> </img>
+                      <label for="memoryin">Memory</label>
+                    </div>
+                    <div class="gradediv"><input type="text" id="memoryin" name="input"><h>  /100</h>   </div>  
+                  </span>
+
+                  <span id="spanverbal">
+                    <div class="iconwtitle">
+                      <img src="./assets/images/icon-verbal.svg" alt=""> </img>
+                      <label for="verbalin">Verbal</label>
+                    </div>
+                    <div class="gradediv"><input type="text" id="verbalin" name="input"><h>  /100</h>    </div>
+                  </span>
+
+                  <span id="spanvisual">
+                    <div class="iconwtitle">
+                        <img src="./assets/images/icon-visual.svg" alt=""> </img>
+                        <label for="visualin">Visual</label>
+                    </div>
+                    <div class="gradediv"><input type="text" id="visualin" name="input"><h>  /100</h>   </div>
+                  
+                  </span>
+                  <button  id="continuebtn" type="button">Continue</button>
+                  
+            </div>
+
+        </parent>
+
+        <script src="index.js"></script>  
+    </Body>
+  </html>

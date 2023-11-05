@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+body{
+    width:1440px;
+    height:720px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+Parent{
+    width:45%;
+    height:60%;
+    margin-left:60px;
+    display:flex;
+    flex-direction:row;
+    column-gap: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+}
+#averagedisplay{    
+    width:45%;
+    border-radius: 20px;  
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    row-gap:25px;
+    padding-top: 37px;
+    background:linear-gradient(to bottom, hsla(252, 100%, 67%,1) 0%,hsla(241, 81%, 54%,1) 63%);
+}
+#result{
+    font-size: 18px;
+    font-weight: 700; 
+    opacity: 70%;
+}
+#grade{
+    font-size: 20px;
+    font-weight: 800;
+}
+p{   
+    margin-top: 0px;
+    width:180px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 60%;
+}
+#outputtext{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(hsl(256deg 87.55% 27.96%),hsla(241, 72%, 46%, 0));
+}
+#gradesinput{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+#summary{
+    margin-right: 200px;   
+    font-size: 19px;
+    font-weight: 800; 
+    color:hsl(224, 30%, 27%);
+}
+span{
+    width:250px;
+    height:35px;
+    border-radius:8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 20px;
+    column-gap: 10px;
+}
+#spanreact{
+    color:hsl(0, 100%, 67%); 
+    background-color:hsl(0deg 88.46% 97.27%)
+   
+}
+#spanmemory{
+    color:hsl(39, 100%, 56%);
+    background-color:hsl(40deg 93.65% 95.04%); 
+}
+#spanverbal{
+    color:hsl(166, 100%, 37%);
+    background-color:hsl(163deg 60.22% 96.04%)
+}
+#spanvisual{ 
+    color:hsl(234, 85%, 45%);
+    background-color:  hsl(233deg 91.99% 96.07%)
+}
+.iconwtitle{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+input{
+    text-align: center;
+    width:35px;
+    border:2px solid rgb(214, 212, 212);
+    border-radius: 4px;
+}
+.gradediv{
+    margin-right: 15px;
+    color:hsl(224, 30%, 27%);
+}
+#continuebtn{
+    
+    margin-left: 20px;
+    width:260px;
+    height:38px;
+    border-radius:18px;
+    border: 0px;
+    color:white;
+    font-weight: 700;
+    background-color: hsl(234deg 54.69% 26.16%)
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 375px) {
+
+    body{
+        width:375px;
+        height:720px;
+        margin:0px;
+    }
+    
+    Parent{
+        width:100%;
+        height:100%;
+        margin-left:0px;
+        display:flex;
+        flex-direction:column;
+        row-gap: 20px;
+        font-family: 'Hanken Grotesk', sans-serif;
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        
+    }
+    
+    #averagedisplay{
+  
+        width:95%;
+        border-radius: unset;
+        border-bottom-left-radius: 30px;  
+        border-bottom-right-radius:30px;
+        color:white;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        row-gap:24px;
+        padding-top: 19px;
+        background:linear-gradient(to bottom, hsla(252, 100%, 67%,1) 0%,hsla(241, 81%, 54%,1) 63%);
+    }
+    p{
+        margin-top: 0px;
+    width:220px;
+    
+    }
+    
+    #gradesinput{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        row-gap: 30px; 
+    }
+    
+    span{  
+        margin-left: 0px;    
+    }
+
+    #continuebtn{
+    
+        margin-left: 10px;
+        width:280px;
+        height:43px;
+        border-radius:18px;
+        border: 0px;
+        
+    }
+}
